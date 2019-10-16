@@ -9,24 +9,29 @@
 	
 	<body>
 		<nav id="navbar">
-			<div id="nav-items">
-				<ul id ="nav-items-ul" class="nav-items-ul">
-					<li>
-						<a href="#section1" class="nav-links nav-links-active">Section 1</a>
-					</li>
-					<li>
-						<a href="#section2" class="nav-links">Section 2</a>
-					</li>
-					<li>
-						<a href="#section3" class="nav-links">Section 3</a>
-					</li>
-					<li>
-						<a href="#section4" class="nav-links">Section 4</a>
-					</li>
-					<li>
-						<a href="#section5" class="nav-links">Section 5</a>
-					</li>
-				</ul>
+			<div id="navbar-container">
+				<div id="navbar-toggler">
+					<span class="navbar-toggler-btn"></span>
+				</div>
+				<div id="nav-items">
+					<ul id ="nav-items-ul" class="nav-items-ul">
+						<li>
+							<a href="#section1" class="nav-links nav-links-active">Section 1</a>
+						</li>
+						<li>
+							<a href="#section2" class="nav-links">Section 2</a>
+						</li>
+						<li>
+							<a href="#section3" class="nav-links" onClick="scrollToTargetAdjusted()">Section 3</a>
+						</li>
+						<li>
+							<a href="#section4" class="nav-links">Section 4</a>
+						</li>
+						<li>
+							<a href="#section5" class="nav-links">Section 5</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 		<main id="main-content">
