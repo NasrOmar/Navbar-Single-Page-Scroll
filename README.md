@@ -1,3 +1,4 @@
 # window.scroll
-Sticky Navbar with links to sections in the page.
-Using JavaScript window.scroll function that is compatible with Safari.
+Fixed navbar with sticky effect using JavaScript.
+Scroll to Section "smooth" using smoothscroll by:
+https://github.com/iamdustan/smoothscroll
