@@ -9,6 +9,7 @@ function navMenu() {
 	navHeight.classList.toggle("nav-items-height");
 }
 
+
 // Navbar sticky function
 window.onscroll = function() {navFixed()};
 
