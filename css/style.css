@@ -17,7 +17,7 @@ body {
 	top: 0;
 	left: 0;
 	background-color: #232323;
-	height: 10%;
+	height: 60px;
 }
 
 #navbar-container {
@@ -58,7 +58,7 @@ body {
 }
 
 #main-content {
-	margin-top: 10%;
+	margin-top: 60px;
 }
 
 
