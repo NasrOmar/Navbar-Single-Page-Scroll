@@ -9,6 +9,10 @@ function navMenu() {
 	navHeight.classList.toggle("nav-items-height");
 }
 
+// Hide Navigation on click
+document.getElementById("nav-items").addEventListener("click", function() {
+	document.getElementById("nav-items").classList.remove("nav-items-height");
+});
 
 // Navbar sticky function
 window.onscroll = function() {navFixed()};
