@@ -6,7 +6,7 @@ function backToTop() {
 }
 
 // To Section Scroll Smooth
-const navLinks = document.querySelectorAll("nav ul li a");
+const navLinks = document.querySelectorAll(".nav-links");
 
 var i;
 
@@ -29,8 +29,9 @@ for (i = 0; i < navLinks.length; i++) {
 	}
 }
 
+
 // Navbar Link Active on Section
-let mainNavLinks = document.querySelectorAll("nav ul li a");
+let mainNavLinks = document.querySelectorAll(".nav-links");
 window.addEventListener("scroll", event => {
   let fromTop = window.scrollY;
 	
