@@ -25,6 +25,24 @@ for (i = 0; i < navLinks.length; i++) {
 		window.scrollTo({
 			top: offsetPosition,
 			behavior: "smooth"
-		})
+		});
 	}
 }
+
+// Navbar Link Active on Section
+let mainNavLinks = document.querySelectorAll("nav ul li a");
+window.addEventListener("scroll", event => {
+  let fromTop = window.scrollY;
+	
+  mainNavLinks.forEach(link => {
+    let section = document.querySelector(link.hash);
+    if (
+      section.offsetTop - 60 <= fromTop &&
+      section.offsetTop + section.offsetHeight - 60 > fromTop
+    ) {
+      link.classList.add("nav-links-active");
+    } else {
+      link.classList.remove("nav-links-active");
+    }
+  });
+});

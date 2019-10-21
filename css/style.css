@@ -89,7 +89,7 @@ body {
 
 #back-to-top {
 	padding: 20px;
-	margin-top: 20px;
+	margin: 20px auto;
 	background-color: #232323;
 	color: #FFF;
 	border-radius: 5px;
@@ -101,6 +101,13 @@ body {
 	cursor: pointer;
 	background-color: #FFF;
 	color: #232323;
+}
+
+#footer {
+	text-align: center;
+	height: 100px;
+	background-color: #232323;
+	color: #FFF;
 }
 
 @media screen and (max-width: 768px) {
