@@ -9,10 +9,17 @@ function navMenu() {
 	navHeight.classList.toggle("nav-items-height");
 }
 
-// Hide Navigation on click
-document.getElementById("nav-items").addEventListener("click", function() {
-	document.getElementById("nav-items").classList.remove("nav-items-height");
-});
+
+// Hide navbar on click
+var navHide = document.querySelectorAll(".nav-links");
+
+var i;
+
+for (i = 0; i < navHide.length; i++) {
+	navHide[i].addEventListener("click", function() {
+		document.getElementById("nav-items").classList.remove("nav-items-height");
+	});
+}
 
 // Navbar sticky function
 window.onscroll = function() {navFixed()};
