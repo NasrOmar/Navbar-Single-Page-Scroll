@@ -52,7 +52,6 @@ body {
 	height: 100%;
 }
 
-
 .nav-items-ul {
 	list-style-type: none;
 	display: flex;
@@ -79,10 +78,29 @@ body {
 	display: none;
 }
 
-.section-content {
-	padding-top: 30px;
+#main-content {
+	text-align: center;
 }
 
+.section-content {
+	padding-top: 30px;
+	text-align: left;
+}
+
+#back-to-top {
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #232323;
+	color: #FFF;
+	border-radius: 8px;
+	transition: all .2s ease-out;
+}
+
+#back-to-top:hover {
+	cursor: pointer;
+	background-color: #FFF;
+	color: #232323;
+}
 
 @media screen and (max-width: 768px) {
 	
