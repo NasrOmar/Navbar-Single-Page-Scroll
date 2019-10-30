@@ -18,6 +18,7 @@ var i;
 for (i = 0; i < navHide.length; i++) {
 	navHide[i].addEventListener("click", function() {
 		document.getElementById("nav-items").classList.remove("nav-items-height");
+		document.getElementById("navbar-toggler").classList.remove("navbar-toggler-btn-x")
 	});
 }
 
